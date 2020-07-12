@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Raleway&display=swap');
+
+body{
+  margin: 0;
+  background-color: #f1f2f6;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dfe4ea;
+  width: 500px;
+  min-height: 500px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, .1);
+  margin-bottom: 10%;
+}
+
+.login h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #2c3e50;
+}
+
+.login p{
+  font-family: 'Raleway', sans-serif;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+.tabela {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tabela table{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+.tabela table tr th {
+  text-align: left;
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.tabela table tr td {
+  background-color: #ced6e0;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.tabela button{
+  padding: 2px 6px;
+  background-color: #f53b57;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  color: #2d3436;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.tabela button:hover {
+  background-color: #ac1b31!important;
+  color: #ced6e0;
+}
+
+@media screen and (max-width: 420px){
+
+  .container{
+    width: 100%;
+  }
+
+  .login{
+    width: 100%;
+  }
+
+  .login h1{
+    margin: 20px 20px 0 20px;
+  }
+
+  .login p{
+    margin: 20px ;
+  }
+
+  .tabela table{
+    font-size: 10px;
+    width: 10px;
+  }
+
+  .tabela table tr td{
+    font-size: 10px;
+    width: 10px;
+  }
+  .tabela button{
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+
+}

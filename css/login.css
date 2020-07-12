@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Raleway&display=swap');
+
+body{
+  margin: 0;
+  background-color: #f1f2f6;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dfe4ea;
+  width: 500px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.login h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #2c3e50;
+}
+
+.login p{
+  font-family: 'Raleway', sans-serif;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+.login input{
+  width: 70%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f5f6fa;
+  font-family: 'Raleway', sans-serif;
+  color: #2d3436;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: 2px solid #d1d2d6;
+}
+
+.login button {
+  margin-top: 10px;
+  background-color: #40739e;
+  border: none;
+  padding: 15px;
+  width: 200px;
+  font-family: 'Raleway', sans-serif;
+  color: #ecf0f1;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #192a56;
+}
+
+@media screen and (max-width: 420px){
+
+  .login{
+    width: 100%;
+  }
+
+  .login h1{
+    margin: 20px 20px 0 20px;
+  }
+}
